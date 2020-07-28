@@ -52,7 +52,7 @@ function keyDownHandler(event) {
                 speedY: Math.randomDec(10, 15)
             })
         }
-    } else if(event.code =="ArrowLeft") {
+    } else {
         for (let n = 0; n<50; n++){
             snow.pop({
                 x: Math.randomDec(0, cnv.width), 
